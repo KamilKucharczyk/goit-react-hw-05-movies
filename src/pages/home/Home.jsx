@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 
 import getPopularMovies from 'api/getPopularMovies';
-import PopularList from 'components/PopularList/PopularList';
+import PopularList from 'components/popularList/PopularList';
 
 import css from './Home.module.css';
 

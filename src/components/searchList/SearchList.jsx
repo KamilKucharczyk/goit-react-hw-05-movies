@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import css from '../PopularList/Popular.module.css';
+import css from '../popularList/popular.module.css';
 
 const SearchList = ({ movies }) => (
   <div>
