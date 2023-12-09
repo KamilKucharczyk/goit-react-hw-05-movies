@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import SharedLayout from './sharedLayout/SharedLayout';
 
 const Cast = lazy(() => import('./cast/Cast'));
-const Home = lazy(() => import('../pages/Home/Home'));
+const Home = lazy(() => import('../pages/home/Home'));
 const Reviews = lazy(() => import('./reviews/Reviews'));
 const Movies = lazy(() => import('../pages/movie/Movie'));
 const MovieDetails = lazy(() => import('./movieDetails/MovieDetails'));
