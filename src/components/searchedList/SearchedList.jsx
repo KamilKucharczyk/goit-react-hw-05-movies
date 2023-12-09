@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import css from '../popularList/popular.module.css';
 
-const SearchList = ({ movies }) => (
+const SearchedList = ({ movies }) => (
   <div>
     {movies.length > 0 ? (
       <ul className={css.movie}>
@@ -28,4 +28,4 @@ const SearchList = ({ movies }) => (
   </div>
 );
 
-export default SearchList;
+export default SearchedList;
