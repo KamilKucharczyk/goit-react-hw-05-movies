@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import getPopularMovies from 'api/getPopularMovies';
 import PopularList from 'components/popularList/PopularList';
 
-import css from './Home.module.css';
+import css from './home.module.css';
 
 export default function Home() {
   const [movies, setMovies] = useState([]);
