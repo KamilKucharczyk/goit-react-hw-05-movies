@@ -3,7 +3,7 @@ import { getMoviebyQuery } from 'api/getMovieByQuery';
 
 import SearchedList from 'components/SearchedList/SearchedList';
 
-import css from './Movie.module.css';
+import css from './movie.module.css';
 
 function Movies() {
   const [movies, setMovies] = useState([]);
