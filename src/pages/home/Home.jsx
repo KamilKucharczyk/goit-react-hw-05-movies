@@ -21,14 +21,6 @@ export default function Home() {
 
     fetchPopularMovies();
   }, []);
-  //   useEffect(() => {
-  //     async function fetchMovies() {
-  //       const data = await getPopularMovies();
-  //       setMovies([...data]);
-  //     }
-
-  //     fetchMovies();
-  //   }, []);
 
   return (
     <div className={css.container}>
